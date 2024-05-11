@@ -1,0 +1,31 @@
+input {
+  text-align: center;
+}
+
+.tic-tac-toe {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.cell {
+  border: none;
+}
+.cell:hover {
+  cursor: pointer;
+}
+.cell:active {
+  outline: none;
+}
+
+.top-row {
+  border-bottom: 1px solid black;
+}
+
+.middle-row {
+  border-bottom: 1px solid black;
+}
+
+#cell-2, #cell-5, #cell-8 {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
